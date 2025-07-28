@@ -132,15 +132,14 @@ sys_pacstall_install_packages () {
 local run_cmd=$(cat << __EOF__
 	pacstall -QPINs
 		bean-appearance-citrus-icon-theme
-		bean-appearance-vimix-gtk-theme
-		bean-appearance-vimix-kde-theme
 
-		bean-appearance-orchis-gtk-theme
-		bean-appearance-graphite-gtk-theme
 		bean-appearance-fluent-gtk-theme
-		bean-appearance-colloid-gtk-theme
-		bean-appearance-layan-gtk-theme
-		bean-appearance-qogir-gtk-theme
+		bean-appearance-fluent-kde-theme
+
+		bean-appearance-win11-icon-theme
+		bean-appearance-win11-gtk-theme
+		bean-appearance-win11-kde-theme
+		bean-appearance-win11-nord-kde-theme
 
 __EOF__
 )
